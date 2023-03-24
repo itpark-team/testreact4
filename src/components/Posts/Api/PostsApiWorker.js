@@ -10,7 +10,7 @@ class PostsApiWorker {
     }
 
     async getAllPosts() {
-        return await axios.get("/");
+        return await this.#axios.get("/");
     }
 }
 
