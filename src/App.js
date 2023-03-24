@@ -1,10 +1,12 @@
 import './App.css';
-import PostsList from "./components/Posts/PostsList/PostsList";
+import TodosList from "./components/Todos/TodosList/TodosList";
+import CheckComp from "./components/CheckComp/CheckComp";
 
 const App = () => {
     return (
         <div>
-            <PostsList/>
+            {/*<TodosList/>*/}
+            <CheckComp/>
         </div>
     );
 }

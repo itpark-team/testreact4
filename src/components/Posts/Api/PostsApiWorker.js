@@ -12,6 +12,10 @@ class PostsApiWorker {
     async getAllPosts() {
         return await this.#axios.get("/");
     }
+
+    async addNewPost(post) {
+        return await this.#axios.post("/", post);
+    }
 }
 
 export default PostsApiWorker;
